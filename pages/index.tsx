@@ -50,7 +50,11 @@ const Home: NextPage = () => {
     content = <Loading />;
   }
 
-  return <section>{content}</section>;
+  return (
+    <section>
+      <Loading />
+    </section>
+  );
 };
 
 export default Home;

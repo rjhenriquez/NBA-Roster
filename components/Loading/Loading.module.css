@@ -24,18 +24,18 @@
   justify-self: center;
   align-self: center;
   background: #e1e1e1;
-  animation: screen-animation 1s ease infinite forwards;
+  animation: screen-animation 5s linear infinite forwards;
   transform: translateY(0);
 }
 
 @keyframes screen-animation {
   0% {
-    transform: translateY(0);
+    transform: translateY(-100%);
   }
   50% {
     transform: translateY(100%);
   }
   100% {
-    transform: translateY(0);
+    transform: translateY(-100%);
   }
 }
